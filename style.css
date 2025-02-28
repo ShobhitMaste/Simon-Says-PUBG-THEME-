@@ -74,7 +74,7 @@ button{
 }
 
 .scores{
-  width:250px;
+  width:280px;
   position: relative;
   left: 120px;
 }
@@ -91,6 +91,7 @@ footer{
   position: fixed;
   top:94%;
   left:28%;
+  background-color: rgb(35, 31, 77);
 }
 
 .settings > svg{
