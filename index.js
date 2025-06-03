@@ -42,7 +42,7 @@ for(var j = 0; j < 4; j++){
 
 document.querySelector("body").addEventListener("wheel", (e) => {
     e.preventDefault(); 
-});
+}, {passive: false});
 
 document.addEventListener("keypress", function () {
     if(!game_Started){
