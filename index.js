@@ -40,6 +40,10 @@ for(var j = 0; j < 4; j++){
     });
 }
 
+document.querySelector("body").addEventListener("wheel", (e) => {
+    e.preventDefault(); 
+});
+
 document.addEventListener("keypress", function () {
     if(!game_Started){
         game_Started = true;
